@@ -4,11 +4,17 @@ Repository for a mini golf game based on the NEXYS A7-100T FPGA.
 
 ## Project Behavior
 # Hardware Needed
-1. NEXYS A7-100T FPGA
-2. A device that can run Vivado
-3. Micro-USB to USB cable
-4. External display
-5. VGA, USB, and AUX to HDMI adapter
+1. NEXYS A7-100T FPGA\
+Board\
+![Board](SourceFolder/board.jpg)
+Board Box\
+![BoardBox](SourceFolder/boardbox.jpg)
+3. A device that can run Vivado
+4. Micro-USB to USB cable
+5. External display
+6. VGA, USB, and AUX to HDMI adapter\
+Adapter\
+![Adapter](SourceFolder/adapter.jpg)
 
 ## Steps to Run
 1. With a new project in Vivado, add all of the supplementary files given in this repository as sources
