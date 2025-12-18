@@ -3,7 +3,7 @@ Repository for a mini golf game based on the NEXYS A7-100T FPGA.
 
 
 ## Project Behavior
-# Hardware Needed
+### Hardware Needed
 1. NEXYS A7-100T FPGA\
 Board\
 ![Board](SourceFolder/board.jpg)
@@ -28,5 +28,12 @@ Adapter\
 ## Summary
 
 ## Modifications
+We originally took code from the "Pong" lab from our Digital System Design class.
+It features a simple ball and bar where the ball bounces endlessly around the screen.
+Should the ball hit the bar, it will bounce off of it in the opposite direction.
+We took these physics as a base for our "golf ball" and added a lot onto it.
+
+## Project in Action
+Video recording: https://youtu.be/8sf0UF7UczM
 
 ## Conclusion
