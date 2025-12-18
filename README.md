@@ -1,8 +1,9 @@
 # Mini-Golf
 Repository for a mini golf game based on the NEXYS A7-100T FPGA. 
 
-
 ## Project Behavior
+### Software
+The current version of our mini golf game features 5 levels. The objective is to beat every level. With every stroke that is made, the counter on the board's built in 7-segment display will increase by 1 and is displayed in hexadecimal. You can also try to get a low score by winning in the lowest number of "strokes". When the ball collides with the hoel at the end of each level, the software will update the level counter and add 1 to it. When the program detects that the level counter has changed, it will change the scene to the next level. Once you reach the win screen after the last level, you can reset the entire program back to the first level and with a clear score. At it's core, this functions as a Finite State Machine, where the states are represented as levels.
 ### Hardware Needed
 1. NEXYS A7-100T FPGA\
 Board\
@@ -24,6 +25,12 @@ Adapter\
 5. Click "Run Implementation"
 6. Click "Generate Bistream"
 7. Once this process is complete, click "Program Device", let the system auto-connect, and the game should appear on your display
+
+## Inputs and Outputs
+### Inputs
+Our project uses the 5 buttons labelled "BTLU", "BTNR", "BTNL", "BTND", and "BTNC". The first 4 buttons listed move the purple shot cursor up, down, left, and right to change the power and trajectory of the ball.
+### Outputs
+The 7-segment counter that is built into the NEXYS board is used to keep score. As previously stated, it increases by 1 with every stroke made. We also used the video output on the board to actually show the game on an external display.
 
 ## Summary
 
