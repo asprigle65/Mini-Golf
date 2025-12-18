@@ -68,3 +68,31 @@ Win Screen\
 ![6](SourceFolder/winscreen.jpg)
 
 ## Conclusion
+
+# Responsibilities
+Aaron Sprigle:
+- Managed the majority of the poster and presentation
+- Transcribed the majority of project to the GitHub repository
+- Assisted in modifications of prior pong files
+- Helped create the win screen post-level 5
+
+Austin Schlake:
+- Created the motion of ball and obstacle interactions
+- Manhandled getting the slopes under manageable control
+- Implemented the layouts and interactions for each level.
+- Contributed to GitHub repository
+
+
+# Timeline
+- 12/4: Transitory Modifications of reliable Pong project files
+- 12/6: Finalizing Motion of the Ball + Interaction with walls and hole
+- 12/8-12/10: Architectures of levels 1-5 (main gameplay loop complete)
+- 12/11-12/13: The Weekend of trying to fix the Slopes
+- 12/14: Poster Presentation & Live Demonstration
+
+# Challenges
+- Most difficult challenge was programming slopes.
+  - Mimicking regular motion for regular shots was easy enough. Stronger the shot, have ball move more pixels/frame, stop when reach the predetermined "time limit."
+  - Programming slopes, objects that would alter the motion of the shot, became chaotic.
+  - The two largest problems became either of the two slopes (the hills or the valleys) being too good at their jobs, rejecting or attracting the ball with such force that you wouldn't be able to overcome their pull regardless of how powerful the shot, or the slopes being too bad at their jobs and not doing anything to alter the ball's motion. Also trying to modify the motion calculations of the level (to try to fix the slopes) resulted in the ball's motion calculations being messed up.
+- While it would've been preferred to find a remedy for this where they would work purely as intended. We found workarounds for both level 3 and 4. For level 3, the slopes still do attract and repel the ball to undesired severities, but after much tweaking: the severity of the slopes is manageable. For level 4, the motion of the ball did get messed up when trying to program the large slope. To remedy this, we expanded the range of the shot, so now you can essentially double the power of your shot compared to other levels to more reasonably reach the summit of the hill. 
