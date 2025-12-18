@@ -32,8 +32,24 @@ We originally took code from the "Pong" lab from our Digital System Design class
 It features a simple ball and bar where the ball bounces endlessly around the screen.
 Should the ball hit the bar, it will bounce off of it in the opposite direction.
 We took these physics as a base for our "golf ball" and added a lot onto it.
+Our main addition was a shot marker represented by a purple circle.
+This changed the shot speed and distance as well as the vector (direction) that the ball would go in.
+We also added obstacles around the levels with their own collision as opposed to just having borders around the screen.
 
 ## Project in Action
 Video recording: https://youtu.be/8sf0UF7UczM
+
+### Levels
+
+Level 1\
+![1](SourceFolder/lvl1.jpg)
+Level 2\
+![2](SourceFolder/lvl2.jpg)
+Level 3\
+![3](SourceFolder/lvl3.jpg)
+Level 4\
+![4](SourceFolder/lvl4.jpg)
+Level 5\
+![5](SourceFolder/lvl5.jpg)
 
 ## Conclusion
