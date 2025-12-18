@@ -1,5 +1,6 @@
 # Mini-Golf
-Repository for a mini golf game based on the NEXYS A7-100T FPGA. 
+Repository for a mini golf game based on the NEXYS A7-100T FPGA. \
+We have a small poster presentation PDF made that can be found in our SourceFolder if interested
 
 ## Project Behavior
 ### Software
@@ -28,7 +29,12 @@ Adapter\
 
 ## Inputs and Outputs
 ### Inputs
-Our project uses the 5 buttons labelled "BTLU", "BTNR", "BTNL", "BTND", and "BTNC". The first 4 buttons listed move the purple shot cursor up, down, left, and right to change the power and trajectory of the ball.
+Our project uses the 5 buttons labelled "BTLU", "BTNR", "BTNL", "BTND", and "BTNC". The first 4 buttons listed move the purple shot cursor up, down, left, and right to change the power and trajectory of the ball. \
+7-Segment Counter \
+![7](SourceFolder/counter.jpg)
+Buttons \
+![b](SourceFolder/buttons.jpg)
+
 ### Outputs
 The 7-segment counter that is built into the NEXYS board is used to keep score. As previously stated, it increases by 1 with every stroke made. We also used the video output on the board to actually show the game on an external display.
 
